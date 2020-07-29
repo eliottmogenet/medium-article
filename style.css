@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital@0;1&family=Montserrat:ital,wght@0,700;0,800;1,700;1,800&display=swap');
+@media(max-width: 992px) {
+  .container {
+    width: 700px;
+  }
+}
+
+h1, h2 {
+  font-family: "Montserrat";
+}
+
+h1 {
+  font-size: 38px;
+}
+
+
+p {
+  font-family: "Lora";
+}
+
+html, body {
+  margin: 0px;
+}
+
+h2 {
+  color: #A0A0A0;
+  font-size: 27px;
+  font-weight: lighter;
+}
+
+p {
+  color: #494949;
+  font-size: 18px;
+}
+
+#banner {
+   color: white;
+   background-image: url("https://source.unsplash.com/random");
+   width: 100%;
+   padding: 120px;
+}
+
+#banner p {
+  color: white;
+  font-size: 30px;
+  font-weight: lighter;
+}
+
+#banner_text {
+  display: block;
+  padding-top: 120px;
+  padding-bottom: 120px;
+  margin-left: 235px;
+}
+
+.card {
+  margin-left: 235px;
+  margin-right: 235px;
+}
+
+#cards {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+a {
+  text-decoration: none;
+  color: #494949;
+  font-size: 25px;
+  background-color: hsla(149,78%,53%,1);
+  opacity: 0.5;
+}
+
+a:hover {
+  opacity: 1;
+}
